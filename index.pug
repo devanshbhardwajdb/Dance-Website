@@ -1,0 +1,57 @@
+doctype html
+html 
+    head 
+        title Devansh
+        style
+            include ../static/style.css 
+    
+    body 
+        nav#navbar 
+            ul
+                div#logo
+                    img(src="/static/logo.png")
+                    | HDA
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Classs Info] 
+                li #[a(href="/") Contact Us]                
+        section#introSection
+            div Welcome to our Dance Academy 
+            div.small Eat -- Learn -- Dance -- Repeat
+        section#missionSection 
+            h1 Our Mission
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/1.png")
+                div.card-content
+                    p This is best academy you will see        
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="/static/2.png")
+                div.card-content
+                    p This is best academy you will see 
+            div.card
+                h3 Expert teaching
+                div.card-box
+                    div.card-img
+                        img(src="/static/3.png")
+                div.card-content
+                    p This is best academy you will see 
+        section#sponsorsSection 
+            h1 Our Sponsors 
+
+            div.sponsors
+                img(src="/static/logo1.png",alt="Sponsor Image",class="spimage")
+                img(src="/static/logo2.png",alt="Sponsor Image",class="spimage")
+                img(src="/static/logo3.png",alt="Sponsor Image",class="spimage")
+                img(src="/static/logo4.png",alt="Sponsor Image",class="spimage")
+
+        footer#footer 
+            | All the copyrights goes to the owner of this s
+        script 
+            include ../static/index.js
